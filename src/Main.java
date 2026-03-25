@@ -71,14 +71,18 @@ public class Main {
 
         JPanel modePanel = new JPanel();
 
-        JButton modePredict = new JButton("Predict Mode");
-        JButton modeTrain = new JButton("Training Mode");
+        JButton modeTest = new JButton("Testing");
+        JButton modeTrain = new JButton("Training");
+        
+        modeTest.addActionListener(e->{
+        	TestingMode.openWindow(mlp);
+        });
         
         modeTrain.addActionListener(e -> {
         	WindowTest.openWindow(mlp);
         });
 
-        modePanel.add(modePredict);
+        modePanel.add(modeTest);
         modePanel.add(modeTrain);
 
         // layout
