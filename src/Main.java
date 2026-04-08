@@ -60,12 +60,12 @@ public class Main {
         rightPanel.add(Box.createVerticalStrut(20));
         rightPanel.add(predictBtn);
         rightPanel.add(Box.createVerticalStrut(10));
-        rightPanel.add(correctBtn);
-        rightPanel.add(Box.createVerticalStrut(10));
-        rightPanel.add(wrongBtn);
-        rightPanel.add(Box.createVerticalStrut(10));
+        //rightPanel.add(correctBtn);
+        //rightPanel.add(Box.createVerticalStrut(10));
+        //rightPanel.add(wrongBtn);
+        //rightPanel.add(Box.createVerticalStrut(10));
         rightPanel.add(resetBtn);
-        rightPanel.add(Box.createVerticalStrut(20));
+        rightPanel.add(Box.createVerticalStrut(40));
 
         // mode panel
 
@@ -82,8 +82,8 @@ public class Main {
         	WindowTest.openWindow(mlp);
         });
 
-        modePanel.add(modeTest);
         modePanel.add(modeTrain);
+        modePanel.add(modeTest);
 
         // layout
 

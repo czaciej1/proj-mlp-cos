@@ -95,7 +95,7 @@ public class WindowTest {
         controls.add(sBtn);
         controls.add(save);
         controls.add(reset);
-        controls.add(print);
+        //controls.add(print);
         controls.add(trainFileBtn);
 
         frame.setLayout(new BorderLayout());

@@ -125,7 +125,7 @@ public class TestingMode {
         controls.add(sBtn);
         controls.add(save);
         controls.add(reset);
-        controls.add(print);
+        //controls.add(print);
         controls.add(testFileBtn);
 
         frame.setLayout(new BorderLayout());
